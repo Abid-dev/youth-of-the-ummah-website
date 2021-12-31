@@ -1124,9 +1124,16 @@ section.apply-now .item p {
   background-color: #fff;
   margin-left: 45px;
 }
+
+.our-aims-title {
+  font-weight: 750;
+  text-align: center;
+}
+
 .accordions .accordion {
   border-bottom: 1px solid #eee;
 }
+
 .accordions .last-accordion {
   border-bottom: none;
 }
@@ -1139,6 +1146,26 @@ section.apply-now .item p {
   transition: color 200ms ease-in-out;
   border-bottom: 1px solid #fff;
 }
+
+.accordion-body {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.accordion-body > .content p {
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.accordion-body > .content ul li {
+  font-size: 14px;
+  line-height: 25px;
+  color: #2a2a2a;
+
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 @media screen and (min-width: 768px) {
   .accordion-head {
     padding: 1rem;
