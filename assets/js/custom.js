@@ -360,11 +360,11 @@
     const name = $("#enquirerName").val();
 
     if (email == "" || name == "") {
-      contactModalMessageTitle.html("Oops! 😶");
-      contactModalMessage.html(
-        "I would appreciate it if you could fill in both the name and email fields! Thanks in advance for getting in touch!"
-      );
-      contactModalMessageTitle.css("backgroundColor", "red");
+      // contactModalMessageTitle.html("Oops! 😶");
+      // contactModalMessage.html(
+      //   "I would appreciate it if you could fill in both the name and email fields! Thanks in advance for getting in touch!"
+      // );
+      // contactModalMessageTitle.css("backgroundColor", "red");
       return false;
     } else {
       if (validateEmail(email)) {
