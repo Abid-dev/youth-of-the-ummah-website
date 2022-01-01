@@ -431,34 +431,34 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="col-lg-8 align-self-center">
           <div class="row">
             <div class="col-lg-12">
-              <form id="contact" action="" method="post">
+              <form id="contact">
                 <div class="row">
                   <div class="col-lg-12">
                     <h2>Let's get in touch</h2>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOUR NAME*" required="">
+                      <input name="name" type="text" id="enquirerName" placeholder="YOUR NAME*" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL*" required="">
+                    <input name="email" type="text" id="enquirerEmail" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL*" required="">
                   </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="SUBJECT*" required="">
+                      <input name="subject" type="text" id="contactSubject" placeholder="SUBJECT*" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                      <textarea name="message" type="text" class="form-control" id="contactMessage" placeholder="YOUR MESSAGE..." required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                      <button type="submit" id="form-submit" name="submit" class="button">SEND MESSAGE NOW</button>
                     </fieldset>
                   </div>
                 </div>

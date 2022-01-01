@@ -309,6 +309,81 @@
     );
   }
 
+  //   contact form post method
+  let contactSubmitBtn = $("#form-submit");
+  contactSubmitBtn.click(function (e) {
+    e.preventDefault();
+    if (validate()) {
+      console.log("tested");
+      const enquirerName = $("#enquirerName").val();
+      const enquirerEmail = $("#enquirerEmail").val();
+      const contactMessage = $("#contactMessage").val();
+      const contactSubject = $("#contactSubject").val();
+      $.ajax({
+        type: "POST",
+        url: "./php/contactForm.php",
+        data: {
+          name: enquirerName,
+          email: enquirerEmail,
+          subject: contactSubject,
+          message: contactMessage,
+        },
+        // dataType: "dataType",
+        success: function (response) {
+          // console.log(response);
+          //   contactModal.show(500);
+          $("#enquirerEmail").val("");
+          $("#enquirerName").val("");
+          $("#contactSubject").val("");
+          $("#contactMessage").val("");
+          // console.log("sent email");
+        },
+        error: function () {
+          console.log("failed, error occured");
+          //   contactModal.show(500);
+        },
+      });
+    } else {
+      //   contactModal.show(500);
+    }
+  });
+
+  //email validation
+  function validateEmail(email) {
+    const re =
+      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+
+  function validate() {
+    const email = $("#enquirerEmail").val();
+    const name = $("#enquirerName").val();
+
+    if (email == "" || name == "") {
+      // contactModalMessageTitle.html("Oops! 😶");
+      // contactModalMessage.html(
+      //   "I would appreciate it if you could fill in both the name and email fields! Thanks in advance for getting in touch!"
+      // );
+      // contactModalMessageTitle.css("backgroundColor", "red");
+      return false;
+    } else {
+      if (validateEmail(email)) {
+        // contactModalMessageTitle.html("Thank you for getting in touch! 😀");
+        // contactModalMessage.html(
+        //   "I appreciate you getting in contact and reaching out. I will get in touch with you soon! Have a great day!"
+        // );
+        // contactModalMessageTitle.css("backgroundColor", "rgb(1, 1, 58)");
+
+        return true;
+      } else {
+        // contactModalMessageTitle.html("Oops! 😶");
+        // contactModalMessage.html("You're email seems invalid");
+        // contactModalMessageTitle.css("backgroundColor", "red");
+        return false;
+      }
+    }
+  }
+
   $(window).scroll(function () {
     if (visible($(".count-digit"))) {
       if ($(".count-digit").hasClass("counter-loaded")) return;
