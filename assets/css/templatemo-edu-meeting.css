@@ -1118,6 +1118,12 @@ section.apply-now .item p {
   margin-bottom: 20px;
 }
 
+.paypal-container {
+  max-width: 400px;
+  max-height: 300px;
+  margin: auto;
+}
+
 .accordions {
   border-radius: 20px;
   padding: 40px;
