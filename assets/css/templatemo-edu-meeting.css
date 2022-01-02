@@ -1130,6 +1130,10 @@ section.apply-now .item p {
   margin: auto;
 }
 
+#donate-button {
+  margin-bottom: 30px;
+}
+
 .accordions {
   border-radius: 20px;
   padding: 40px;
