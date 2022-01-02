@@ -640,7 +640,13 @@ header
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
+    /* font-size: 1.5em; */
   }
+
+  #page-title {
+    font-size: 0.8em;
+  }
+
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
     color: #f5a425 !important;

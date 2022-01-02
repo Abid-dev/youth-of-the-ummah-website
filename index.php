@@ -17,16 +17,9 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css?<?php echo date("YmdHis");?>">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
-
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
--->
   </head>
 
 <body>
@@ -61,7 +54,7 @@ https://templatemo.com/tm-569-edu-meeting
               <div class="col-12">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
+                      <a href="#" class="logo" id="page-title">
                           Youth Of the Ummah (YOU)
                       </a>
                       <!-- ***** Logo End ***** -->
@@ -502,7 +495,7 @@ https://templatemo.com/tm-569-edu-meeting
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js?<?php echo date("YmdHis");?>"></script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');
