@@ -310,7 +310,13 @@
   }
 
   //   contact form post method
-  let contactSubmitBtn = $("#form-submit");
+  const contactSubmitBtn = $("#form-submit");
+  const contactModal = $("#contactModal");
+  const contactModalCloseBtn = $("#contactModalCloseBtn");
+  const modal = $(".modal");
+  const contactModalMessageTitle = $("#contactModalMessageTitle");
+  const contactModalMessage = $("#contactModalMessage");
+
   contactSubmitBtn.click(function (e) {
     e.preventDefault();
     if (validate()) {
@@ -331,7 +337,7 @@
         // dataType: "dataType",
         success: function (response) {
           // console.log(response);
-          //   contactModal.show(500);
+          contactModal.show(500);
           $("#enquirerEmail").val("");
           $("#enquirerName").val("");
           $("#contactSubject").val("");
@@ -340,11 +346,11 @@
         },
         error: function () {
           console.log("failed, error occured");
-          //   contactModal.show(500);
+          contactModal.show(500);
         },
       });
     } else {
-      //   contactModal.show(500);
+      contactModal.show(500);
     }
   });
 
@@ -358,31 +364,40 @@
   function validate() {
     const email = $("#enquirerEmail").val();
     const name = $("#enquirerName").val();
+    const contactMessage = $("#contactMessage").val();
+    const contactSubject = $("#contactSubject").val();
 
-    if (email == "" || name == "") {
-      // contactModalMessageTitle.html("Oops! 😶");
-      // contactModalMessage.html(
-      //   "I would appreciate it if you could fill in both the name and email fields! Thanks in advance for getting in touch!"
-      // );
-      // contactModalMessageTitle.css("backgroundColor", "red");
+    if (
+      email == "" ||
+      name == "" ||
+      contactMessage == "" ||
+      contactSubject == ""
+    ) {
+      contactModalMessageTitle.html("Oops! 😶");
+      contactModalMessage.html("Please fill in all the fields!");
+      contactModalMessageTitle.css("backgroundColor", "red");
       return false;
     } else {
       if (validateEmail(email)) {
-        // contactModalMessageTitle.html("Thank you for getting in touch! 😀");
-        // contactModalMessage.html(
-        //   "I appreciate you getting in contact and reaching out. I will get in touch with you soon! Have a great day!"
-        // );
-        // contactModalMessageTitle.css("backgroundColor", "rgb(1, 1, 58)");
+        contactModalMessageTitle.html("Thank you for getting in touch! 😀");
+        contactModalMessage.html(
+          "We appreciate you getting in contact and reaching out. One of our volunteers will get in touch soon inshaAllah! Have a blessed day!"
+        );
+        contactModalMessageTitle.css("backgroundColor", "rgb(1, 1, 58)");
 
         return true;
       } else {
-        // contactModalMessageTitle.html("Oops! 😶");
-        // contactModalMessage.html("You're email seems invalid");
-        // contactModalMessageTitle.css("backgroundColor", "red");
+        contactModalMessageTitle.html("Oops! 😶");
+        contactModalMessage.html("You're email address seems invalid");
+        contactModalMessageTitle.css("backgroundColor", "red");
         return false;
       }
     }
   }
+
+  contactModalCloseBtn.click(function () {
+    contactModal.hide(500);
+  });
 
   $(window).scroll(function () {
     if (visible($(".count-digit"))) {

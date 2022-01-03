@@ -1561,6 +1561,93 @@ section.contact-us .right-info ul li span {
   color: #f5a425;
 }
 
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  overflow: auto;
+  background-color: rgba(13, 2, 56, 0.308);
+
+  display: none;
+}
+
+.modalContent {
+  background-color: rgb(253, 253, 253);
+  color: rgb(4, 27, 56);
+  /* padding: 1em; */
+  position: relative;
+  width: 330px;
+  /* height: 250px; */
+  margin: 20% auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modalMessageTitle {
+  /* color: #16055f; */
+  font-size: 1.2em;
+  color: white;
+  font-weight: 550;
+  padding: 1em;
+  background-color: rgb(1, 1, 58);
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+
+  border-top: solid 2px #1bbff5;
+  border-right: solid 2px #1bbff5;
+  border-left: solid 2px #1bbff5;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.modalMessage {
+  text-align: center;
+  padding: 1em;
+  font-weight: 500;
+}
+
+.modalClose {
+  color: gray;
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  font-size: 30px;
+}
+
+.modalClose:hover {
+  color: #000;
+}
+
+.modalCloseBtn {
+  margin: 0 auto;
+  height: 30px;
+  width: 70px;
+  display: block;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  /* color: white;
+  background: #0db9ed; */
+
+  background-color: white;
+  color: #0db9ed;
+  border: solid 2px #0db9ed;
+}
+
+.modalCloseBtn:hover {
+  /* background-color: white;
+  color: #0db9ed;
+  border: solid 2px #0db9ed; */
+  color: white;
+  background: #0db9ed;
+  cursor: pointer;
+}
+
 /*
 ---------------------------------------------
 heading page

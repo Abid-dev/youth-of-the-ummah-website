@@ -455,7 +455,7 @@
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" name="submit" class="button">SEND MESSAGE NOW</button>
+                      <button type="button" id="form-submit" name="submit" class="button">SEND MESSAGE NOW</button>
                     </fieldset>
                   </div>
                 </div>
@@ -487,6 +487,16 @@
       <p>Copyright © 2022 Youth Of The Ummah. All Rights Reserved. 
     </div>
   </section>
+
+  <!-- contact modals -->
+  <div id="contactModal" class="modal">
+        <div class="modalContent">
+            <!-- <span class="modalClose">&times</span> -->
+            <h3 class="modalMessageTitle" id="contactModalMessageTitle">Thank you for getting in touch! 😀</h3>
+            <p class="modalMessage" id="contactModalMessage">I appreciate you getting in contact and reaching out. I will get in touch with you soon! Have a great day!</p>
+            <button class="modalCloseBtn" id="contactModalCloseBtn">Close</button>
+        </div>
+    </div>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
