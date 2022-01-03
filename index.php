@@ -17,7 +17,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css?<?php echo date("YmdHis");?>">
+    <link rel="stylesheet" href="assets/css/custom.css?<?php echo date("YmdHis");?>">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
   </head>
@@ -38,8 +38,8 @@
             <ul>
               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-              <li><a href="https://www.instagram.com/alfalaqyouthproject/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://youtube.com/channel/UCHHtSSvlqbqcozFREQNwgqg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="https://instagram.com/youth_of_the_ummah" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://youtube.com/channel/UCTGTZvK76JVOxMgFGrz887A" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </ul>
           </div>
         </div>
