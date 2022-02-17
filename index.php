@@ -60,12 +60,17 @@
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li class="scroll-to-section"><a href="#events">Events</a></li>
+                          <a href="#top" class="active"><li class="scroll-to-section">Home</li></a>
+                          <a href="#events" class="active"><li class="scroll-to-section">Events</li></a>
+                          <a href="#about-us" class="active"><li class="scroll-to-section">About us</li></a>
+                          <a href="#courses" class="active"><li class="scroll-to-section">Gallery</li></a>
+                          <a href="#apply" class="active"><li class="scroll-to-section">Donate</li></a>
+                          <a href="#contact" class="active"><li class="scroll-to-section">Contact Us</li></a>
+                          <!-- <li class="scroll-to-section"><a href="#events">Events</a></li>
                           <li class="scroll-to-section"><a href="#about-us">About us</a></li>
                           <li class="scroll-to-section"><a href="#courses">Gallery</a></li> 
                           <li class="scroll-to-section"><a href="#apply">Donate</a></li> 
-                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>  -->
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -484,7 +489,9 @@
       </div>
     </div>
     <div class="footer">
-      <p>Copyright © 2022 Youth Of The Ummah. All Rights Reserved. 
+      <!-- <div><a href="./policies/privacy-policy.php" target="_blank">Privacy policy</a></div> -->
+      <div><a href="https://www.termsfeed.com/live/98784e73-da59-4823-875f-258f47762c26" target="_blank">Privacy policy</a></div>
+      <div>Copyright © 2022 Youth Of The Ummah. All Rights Reserved.</div>
     </div>
   </section>
 

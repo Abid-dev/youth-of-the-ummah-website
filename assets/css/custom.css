@@ -320,20 +320,20 @@ header
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
 }
 
-.background-header .main-nav .nav li a {
+.background-header .main-nav .nav a {
   color: #1e1e1e !important;
 }
 
 .background-header .logo,
-.background-header .main-nav .nav li a {
+.background-header .main-nav .nav a {
   color: #1e1e1e !important;
 }
 
-.background-header .main-nav .nav li:hover a {
+.background-header .main-nav .nav a:hover {
   color: #fb5849 !important;
 }
 
-.background-header .nav li a.active {
+.background-header .nav a.active {
   color: #fb5849 !important;
 }
 
@@ -390,7 +390,7 @@ header
   z-index: 999;
 }
 
-.header-area .main-nav .nav li {
+.header-area .main-nav .nav a {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -399,7 +399,7 @@ header
   padding-right: 0px;
 }
 
-.header-area .main-nav .nav li a {
+.header-area .main-nav .nav a {
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -416,12 +416,12 @@ header
 }
 
 .header-area .main-nav .nav li:hover a,
-.header-area .main-nav .nav li a.active {
+.header-area .main-nav .nav a.active {
   color: #f5a425 !important;
 }
 
 .background-header .main-nav .nav li:hover a,
-.background-header .main-nav .nav li a.active {
+.background-header .main-nav .nav a.active {
   color: #f5a425 !important;
   opacity: 1;
 }
@@ -623,7 +623,7 @@ header
   margin-top: 30px;
 }
 
-.header-area.header-sticky .nav li a.active {
+.header-area.header-sticky .nav a.active {
   color: #f5a425;
 }
 
@@ -647,8 +647,8 @@ header
     font-size: 0.8em;
   }
 
-  .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active {
+  .header-area.header-sticky .nav a:hover,
+  .header-area.header-sticky .nav a.active {
     color: #f5a425 !important;
     opacity: 1;
   }
@@ -697,7 +697,7 @@ header
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
-  .header-area .main-nav .nav li a {
+  .header-area .main-nav .nav a {
     height: 50px !important;
     line-height: 50px !important;
     padding: 0px !important;
@@ -705,7 +705,7 @@ header
     background: #f7f7f7 !important;
     color: #191a20 !important;
   }
-  .header-area .main-nav .nav li a:hover {
+  .header-area .main-nav .nav a:hover {
     background: #eee !important;
     color: #f5a425 !important;
   }
@@ -1551,7 +1551,7 @@ section.contact-us .right-info ul li span {
   border-top: 1px solid rgba(250, 250, 250, 0.15);
   padding: 50px 0px;
 }
-.footer p {
+.footer div {
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
@@ -1638,8 +1638,7 @@ section.contact-us .right-info ul li span {
   color: #0db9ed;
   border: solid 2px #0db9ed;
 }
-
-.modalCloseBtn:hover {
+ljgfx .modalCloseBtn:hover {
   /* background-color: white;
   color: #0db9ed;
   border: solid 2px #0db9ed; */
