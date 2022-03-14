@@ -149,7 +149,7 @@
                 <img src="assets/images/service-icon-02.png" alt="">
               </div>
               <div class="down-content">
-                <h4>Obedience of the Allah</h4>
+                <h4>Obedience of Allah</h4>
                 <p>What good is there in a person if has ammassed all materlial and wordly gains if it is done in the disobedience of the one whose pleasure is the most precious of all.</p>
               </div>
             </div>
@@ -174,6 +174,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
+          <div id="about-us">
+            <div class="section-heading">
+              <h2 id="events">What we are doing</h2>
+            </div>
+            <p>We currently run and organise monthly youth events in two masajid (Mimbar Academy and Roman Road masjid). In these events, we try to create a really fun atmosphere in a safe and spiritual environment. The events are full of team activities orchestrated to build strong bonds of brotherhood and inspire good conduct therein. We inject short bursts of crash learning between the activities so the youth not only have fun, but learn essential things about their faith. Overall, through these events, we want to give our youth a taste of the sweetness of faith and empower them with an enthusiasm that makes them and our community greater. </p>
+            <p>We have been running these events since October 2021 and we can slowly see the youth coming together with good motives and enthusiasm to progress as model Muslims for society.</p>
+            <div class="section-heading">
+              <h2 id="events">What we want to and plan to do</h2>
+            </div>
+            <p>On the back of instilling enthusiasm and passion for personal development and the faith in general, from July 2022, we plan to start holding weekly circles to cover in detail some of the topics we touch upon in the events such as fundamentals of faith and personal development. Alongside that, a lot of interest and requests have come through to organise football sessions for which we plan to hire out pitches for weekly or fortnightly sessions. Residentials are also being planned for the summer and possibly the winter of 2022.</p>
+            <p>All of the above are efforts to grow and improve the youth as a community and strengthen the bonds therein. But we understand that for complete progression we need to give attention to the youth on an individual basis. This would be to see how YOU can help them hurdle over any issues they may be facing and may find hard to address or simply provide them guidance on something they are inexperienced in. For this we are working towards putting together a mentoring system for our youth.</p>
+          </div>
           <div class="section-heading">
             <h2 id="events">Upcoming Events</h2>
           </div>
@@ -195,13 +207,13 @@
                   <div class="price">
                     <span>FREE</span>
                   </div>
-                  <a href="#"><img src="assets/images/mimbar27dec.jpg" alt="Mimber event 27/12/21"></a>
+                  <a href="#"><img src="assets/images/coming-soon.jpg" alt="Mimber poster"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
-                    <h6>Dec <span>27</span></h6>
+                    <h6>Mar <span>27</span></h6>
                   </div>
-                  <a href="#"><h4>Mimbar Youth Event (Juniors)</h4></a>
+                  <a href="#"><h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4></a>
                   <!-- <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p> -->
                 </div>
               </div>
@@ -212,13 +224,13 @@
                   <div class="price">
                     <span>FREE</span>
                   </div>
-                  <a href="#"><img src="assets/images/roman28dec.jpg" alt="Online Teaching"></a>
+                  <a href="#"><img src="assets/images/coming-soon.jpg" alt="Roman road poster"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
-                    <h6>Dec <span>28</span></h6>
+                    <h6>Mar <span>26</span></h6>
                   </div>
-                  <a href="#"><h4>Roman Road Masjid Youth Event (Seniors)</h4></a>
+                  <a href="#"><h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4></a>
                   <!-- <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p> -->
                 </div>
               </div>
@@ -387,7 +399,7 @@
           <div class="accordions is-first-expanded">
             <h3 class="our-aims-title">Our Aims</h3>
 
-            <article class="accordion">
+            <!-- <article class="accordion">
               <div class="accordion-head">
                   <span>What we are doing</span>
                   <span class="icon">
@@ -400,7 +412,7 @@
                     <p>Stay updated with our community to hear and read about our bigger and wider vision. Will be posted soon...</p>
                 </div>
               </div>
-            </article>
+            </article> -->
             <article class="accordion">
               <div class="accordion-head">
                   <span>What we want to do</span>
@@ -410,14 +422,14 @@
               </div>
               <div class="accordion-body">
                 <div class="content">
-                    <p>Hosting these events is only the start. They are only a gateway to bigger motives and goals for the community and ummah at large. It is through these events that we instil enthusiasm into the youth which we will then redirect to forming a better community. How we plan to keep the enthusiasm growing and spreading this khair is by:</p>
+                    <p>YOU is run by volunteers and currently has no method of funding. To fulfil our plans above, we require your support</p>
                     <ul>
-                      <li>More equipment for events and masajid</li>
-                      <li>Day trips</li>
-                      <li>Residentials trips</li>
-                      <li>Supporting more and more masajid</li>
+                      <li>We are fortunate to have been provided a space to carry out our monthly events in local masajid, however we may need to hire out halls for some of the activities the youth want to engage in. </li>
+                      <li>We are currently working to support two masajid in Bow, Tower Hamlets. Monthly events in each masjid costs up to £150. Donations will go to supporting in these running costs. </li>
+                      <li>Members from other masajid have requested to run and organise events in their masajid too. Sadly, we are unable to support them at the moment, due to lack of funds and resources.</li>
+                      <li>To cover costs for hiring football pitches for weekly or fortnightly football</li>
+                      <li>Residential trips – for the summer. Ideally, we want enough funds to be able to take the youth with costs all paid for.</li>
                     </ul>
-                    <p>This is where we need your support. In order to take this to the next level and scale up to support more and more masajid/communities, we need your support at whatever capacity.</p>
                 </div>
               </div>
             </article>
