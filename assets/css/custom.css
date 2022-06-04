@@ -968,8 +968,8 @@ section.upcoming-meetings {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 section.upcoming-meetings .section-heading {
@@ -1434,6 +1434,34 @@ section.our-facts .video {
 section.our-facts .video img {
   padding: 170px 0px;
   max-width: 56px;
+}
+/*
+---------------------------------------------
+about us
+---------------------------------------------
+*/
+
+section.about-us {
+  background: gray;
+
+  background-image: url(../images/meetings-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding-top: 230px;
+  padding-bottom: 50px;
+}
+
+section.about-us h2 {
+  font-size: 38px;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 50px auto 30px;
+  text-align: center;
 }
 
 /* 
@@ -1983,7 +2011,7 @@ responsive
     margin-top: 60px;
   }
 
-  section.upcoming-meetings {
+  section.about-us {
     padding-top: 400px;
   }
 
