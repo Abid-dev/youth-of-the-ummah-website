@@ -63,15 +63,9 @@
                           <a href="#top" class="active"><li class="scroll-to-section">Home</li></a>
                           <a href="#about-us" class="active"><li class="scroll-to-section">About us</li></a>
                           <a href="#events" class="active"><li class="scroll-to-section">Events</li></a>
-                          <!-- <a href="#progress" class="active"><li class="scroll-to-section">Progress</li></a> -->
                           <a href="#courses" class="active"><li class="scroll-to-section">Gallery</li></a>
                           <a href="#apply" class="active"><li class="scroll-to-section">Donate</li></a>
                           <a href="#contact" class="active"><li class="scroll-to-section">Contact Us</li></a>
-                          <!-- <li class="scroll-to-section"><a href="#events">Events</a></li>
-                          <li class="scroll-to-section"><a href="#about-us">About us</a></li>
-                          <li class="scroll-to-section"><a href="#courses">Gallery</a></li> 
-                          <li class="scroll-to-section"><a href="#apply">Donate</a></li> 
-                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>  -->
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -193,19 +187,6 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <!-- <div id="about-us">
-              <div class="section-heading">
-                <h2>What we are doing</h2>
-              </div>
-              <p>We currently run and organise monthly youth events in two masajid (Mimbar Academy and Roman Road masjid). In these events, we try to create a really fun atmosphere in a safe and spiritual environment. The events are full of team activities orchestrated to build strong bonds of brotherhood and inspire good conduct therein. We inject short bursts of crash learning between the activities so the youth not only have fun, but learn essential things about their faith. Overall, through these events, we want to give our youth a taste of the sweetness of faith and empower them with an enthusiasm that makes them and our community greater. </p>
-              <p>We have been running these events since October 2021 and we can slowly see the youth coming together with good motives and enthusiasm to progress as model Muslims for society.</p>
-              <div class="section-heading">
-                <h2>What we want to and plan to do</h2>
-              </div>
-              <p>On the back of instilling enthusiasm and passion for personal development and the faith in general, from July 2022, we plan to start holding weekly circles to cover in detail some of the topics we touch upon in the events such as fundamentals of faith and personal development. Alongside that, a lot of interest and requests have come through to organise football sessions for which we plan to hire out pitches for weekly or fortnightly sessions. Residentials are also being planned for the summer and possibly the winter of 2022.</p>
-              <p>All of the above are efforts to grow and improve the youth as a community and strengthen the bonds therein. But we understand that for complete progression we need to give attention to the youth on an individual basis. This would be to see how YOU can help them hurdle over any issues they may be facing and may find hard to address or simply provide them guidance on something they are inexperienced in. For this we are working towards putting together a mentoring system for our youth.</p>
-            </div> -->
-            <!-- <div class="section-heading" style="margin-top: 50px;"> -->
             <div class="section-heading">
               <h2>Upcoming Events</h2>
             </div>
@@ -227,13 +208,13 @@
                     <div class="price">
                       <span>FREE</span>
                     </div>
-                    <a href="#"><img src="assets/images/mimbar26June.jpg" alt="Mimber poster"></a>
+                    <img src="assets/images/mimbar26June.jpg" alt="Mimber poster">
                   </div>
                   <div class="down-content">
                     <div class="date">
                       <h6>June <span>26</span></h6>
                     </div>
-                    <a href="#"><h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4></a>
+                    <h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4>
                   </div>
                 </div>
               </div>
@@ -243,13 +224,13 @@
                     <div class="price">
                       <span>FREE</span>
                     </div>
-                    <a href="#"><img src="assets/images/coming-soon.jpg" alt="Roman road poster"></a>
+                    <img src="assets/images/coming-soon.jpg" alt="Roman road poster">
                   </div>
                   <div class="down-content">
                     <div class="date">
                       <h6>June <span>25</span></h6>
                     </div>
-                    <a href="#"><h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4></a>
+                    <h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4>
                   </div>
                 </div>
               </div>
