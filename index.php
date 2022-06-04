@@ -61,8 +61,9 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <a href="#top" class="active"><li class="scroll-to-section">Home</li></a>
-                          <a href="#events" class="active"><li class="scroll-to-section">Events</li></a>
                           <a href="#about-us" class="active"><li class="scroll-to-section">About us</li></a>
+                          <a href="#events" class="active"><li class="scroll-to-section">Events</li></a>
+                          <!-- <a href="#progress" class="active"><li class="scroll-to-section">Progress</li></a> -->
                           <a href="#courses" class="active"><li class="scroll-to-section">Gallery</li></a>
                           <a href="#apply" class="active"><li class="scroll-to-section">Donate</li></a>
                           <a href="#contact" class="active"><li class="scroll-to-section">Contact Us</li></a>
@@ -170,9 +171,9 @@
     </div>
   </section>
 
-  <section class="about-us">
+  <section class="about-us" id="about-us">
     <div class="container">
-      <div id="about-us">
+      <div>
         <div class="section-heading">
           <h2>What we are doing</h2>
         </div>
@@ -187,183 +188,127 @@
     </div>
   </section>
 
-  <section class="upcoming-meetings" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <!-- <div id="about-us">
-            <div class="section-heading">
-              <h2>What we are doing</h2>
-            </div>
-            <p>We currently run and organise monthly youth events in two masajid (Mimbar Academy and Roman Road masjid). In these events, we try to create a really fun atmosphere in a safe and spiritual environment. The events are full of team activities orchestrated to build strong bonds of brotherhood and inspire good conduct therein. We inject short bursts of crash learning between the activities so the youth not only have fun, but learn essential things about their faith. Overall, through these events, we want to give our youth a taste of the sweetness of faith and empower them with an enthusiasm that makes them and our community greater. </p>
-            <p>We have been running these events since October 2021 and we can slowly see the youth coming together with good motives and enthusiasm to progress as model Muslims for society.</p>
-            <div class="section-heading">
-              <h2>What we want to and plan to do</h2>
-            </div>
-            <p>On the back of instilling enthusiasm and passion for personal development and the faith in general, from July 2022, we plan to start holding weekly circles to cover in detail some of the topics we touch upon in the events such as fundamentals of faith and personal development. Alongside that, a lot of interest and requests have come through to organise football sessions for which we plan to hire out pitches for weekly or fortnightly sessions. Residentials are also being planned for the summer and possibly the winter of 2022.</p>
-            <p>All of the above are efforts to grow and improve the youth as a community and strengthen the bonds therein. But we understand that for complete progression we need to give attention to the youth on an individual basis. This would be to see how YOU can help them hurdle over any issues they may be facing and may find hard to address or simply provide them guidance on something they are inexperienced in. For this we are working towards putting together a mentoring system for our youth.</p>
-          </div> -->
-          <!-- <div class="section-heading" style="margin-top: 50px;"> -->
-          <div class="section-heading">
-            <h2 id="events">Upcoming Events</h2>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="categories">
-            <h4>Regular Events</h4>
-            <p>Generally, our events take place for 14 and above on the last Saturday of every month and last Sunday of every month for the 14 and under. Follow us on our social media platforms to stay updated</p>
-            <!-- <div class="main-button-red">
-              <a href="meetings.html">All Upcoming Meetings</a>
+  <div id="events">
+    <section class="upcoming-meetings" id="meetings">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <div id="about-us">
+              <div class="section-heading">
+                <h2>What we are doing</h2>
+              </div>
+              <p>We currently run and organise monthly youth events in two masajid (Mimbar Academy and Roman Road masjid). In these events, we try to create a really fun atmosphere in a safe and spiritual environment. The events are full of team activities orchestrated to build strong bonds of brotherhood and inspire good conduct therein. We inject short bursts of crash learning between the activities so the youth not only have fun, but learn essential things about their faith. Overall, through these events, we want to give our youth a taste of the sweetness of faith and empower them with an enthusiasm that makes them and our community greater. </p>
+              <p>We have been running these events since October 2021 and we can slowly see the youth coming together with good motives and enthusiasm to progress as model Muslims for society.</p>
+              <div class="section-heading">
+                <h2>What we want to and plan to do</h2>
+              </div>
+              <p>On the back of instilling enthusiasm and passion for personal development and the faith in general, from July 2022, we plan to start holding weekly circles to cover in detail some of the topics we touch upon in the events such as fundamentals of faith and personal development. Alongside that, a lot of interest and requests have come through to organise football sessions for which we plan to hire out pitches for weekly or fortnightly sessions. Residentials are also being planned for the summer and possibly the winter of 2022.</p>
+              <p>All of the above are efforts to grow and improve the youth as a community and strengthen the bonds therein. But we understand that for complete progression we need to give attention to the youth on an individual basis. This would be to see how YOU can help them hurdle over any issues they may be facing and may find hard to address or simply provide them guidance on something they are inexperienced in. For this we are working towards putting together a mentoring system for our youth.</p>
             </div> -->
+            <!-- <div class="section-heading" style="margin-top: 50px;"> -->
+            <div class="section-heading">
+              <h2>Upcoming Events</h2>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>FREE</span>
+          <div class="col-lg-4">
+            <div class="categories">
+              <h4>Regular Events</h4>
+              <p>Generally, our events take place for 14 and above on the last Saturday of every month and last Sunday of every month for the 14 and under. Follow us on our social media platforms to stay updated</p>
+              <!-- <div class="main-button-red">
+                <a href="meetings.html">All Upcoming Meetings</a>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>FREE</span>
+                    </div>
+                    <a href="#"><img src="assets/images/mimbar26June.jpg" alt="Mimber poster"></a>
                   </div>
-                  <a href="#"><img src="assets/images/mimbar26June.jpg" alt="Mimber poster"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>June <span>26</span></h6>
+                  <div class="down-content">
+                    <div class="date">
+                      <h6>June <span>26</span></h6>
+                    </div>
+                    <a href="#"><h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4></a>
                   </div>
-                  <a href="#"><h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4></a>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>FREE</span>
+              <div class="col-lg-6">
+                <div class="meeting-item">
+                  <div class="thumb">
+                    <div class="price">
+                      <span>FREE</span>
+                    </div>
+                    <a href="#"><img src="assets/images/coming-soon.jpg" alt="Roman road poster"></a>
                   </div>
-                  <a href="#"><img src="assets/images/coming-soon.jpg" alt="Roman road poster"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>June <span>25</span></h6>
+                  <div class="down-content">
+                    <div class="date">
+                      <h6>June <span>25</span></h6>
+                    </div>
+                    <a href="#"><h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4></a>
                   </div>
-                  <a href="#"><h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="upcoming-meetings" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h2 id="events">Upcoming Events</h2>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="categories">
-            <h4>Regular Events</h4>
-            <p>Generally, our events take place for 14 and above on the last Saturday of every month and last Sunday of every month for the 14 and under. Follow us on our social media platforms to stay updated</p>
-            <div class="main-button-red">
-              <a href="meetings.html">All Upcoming Meetings</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>FREE</span>
-                  </div>
-                  <a href="#"><img src="assets/images/coming-soon.jpg" alt="Mimber poster"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Mar <span>27</span></h6>
-                  </div>
-                  <a href="#"><h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>FREE</span>
-                  </div>
-                  <a href="#"><img src="assets/images/coming-soon.jpg" alt="Roman road poster"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Mar <span>26</span></h6>
-                  </div>
-                  <a href="#"><h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section> -->
-
-  <section class="our-facts">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>Our Progress</h2>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">9</div>
-                    <div class="count-title">Dedicated Volunteers</div>
+    </section>
+    <section class="our-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2>Our Progress</h2>
+              </div>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="count-area-content">
+                      <div class="count-digit">9</div>
+                      <div class="count-title">Dedicated Volunteers</div>
+                    </div>
                   </div>
-                </div>
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">2</div>
-                    <div class="count-title">Masajid we support</div>
+                  <div class="col-12">
+                    <div class="count-area-content">
+                      <div class="count-digit">2</div>
+                      <div class="count-title">Masajid we support</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content new-students">
-                    <div class="count-digit">4</div>
-                    <div class="count-title">Events hosted</div>
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="count-area-content new-students">
+                      <div class="count-digit">4</div>
+                      <div class="count-title">Events hosted</div>
+                    </div>
                   </div>
-                </div> 
-                <div class="col-12">
-                  <div class="count-area-content percentage">
-                    <div class="count-digit">100</div>
-                    <div class="count-title">Smiley faces in events 😁</div>
+                  <div class="col-12">
+                    <div class="count-area-content percentage">
+                      <div class="count-digit">100</div>
+                      <div class="count-title">Smiley faces in events 😁</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div> 
-        <div class="col-lg-6 align-self-center">
-          <div class="video">
-            <a href="https://www.instagram.com/tv/CYCt2BZhY2h/?utm_medium=share_sheet" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
+          <div class="col-lg-6 align-self-center">
+            <div class="video">
+              <a href="https://www.instagram.com/tv/CYCt2BZhY2h/?utm_medium=share_sheet" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
 
   <section class="our-courses" id="courses">
