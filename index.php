@@ -186,7 +186,7 @@
             <p>On the back of instilling enthusiasm and passion for personal development and the faith in general, from July 2022, we plan to start holding weekly circles to cover in detail some of the topics we touch upon in the events such as fundamentals of faith and personal development. Alongside that, a lot of interest and requests have come through to organise football sessions for which we plan to hire out pitches for weekly or fortnightly sessions. Residentials are also being planned for the summer and possibly the winter of 2022.</p>
             <p>All of the above are efforts to grow and improve the youth as a community and strengthen the bonds therein. But we understand that for complete progression we need to give attention to the youth on an individual basis. This would be to see how YOU can help them hurdle over any issues they may be facing and may find hard to address or simply provide them guidance on something they are inexperienced in. For this we are working towards putting together a mentoring system for our youth.</p>
           </div>
-          <div class="section-heading">
+          <div class="section-heading" style="margin-top: 50px;">
             <h2 id="events">Upcoming Events</h2>
           </div>
         </div>
@@ -207,11 +207,11 @@
                   <div class="price">
                     <span>FREE</span>
                   </div>
-                  <a href="#"><img src="assets/images/coming-soon.jpg" alt="Mimber poster"></a>
+                  <a href="#"><img src="assets/images/mimbar26June.jpg" alt="Mimber poster"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
-                    <h6>Mar <span>27</span></h6>
+                    <h6>June <span>26</span></h6>
                   </div>
                   <a href="#"><h4>Mimbar Youth Event (Juniors) - last sunday of the month</h4></a>
                 </div>
@@ -227,7 +227,7 @@
                 </div>
                 <div class="down-content">
                   <div class="date">
-                    <h6>Mar <span>26</span></h6>
+                    <h6>June <span>25</span></h6>
                   </div>
                   <a href="#"><h4>Roman Road Masjid Youth Event (Seniors) - last Saturday of the month</h4></a>
                 </div>
