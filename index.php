@@ -55,7 +55,7 @@
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="#" class="logo" id="page-title">
-                          Youth Of the Ummah (YOU)
+                          <img src="assets/images/you-logo.jpg" alt="YOU logo">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->

@@ -371,10 +371,23 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
 }
 
 .background-header .main-nav .logo {
   line-height: 75px;
+
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
+}
+
+.main-nav .logo {
+  height: 100%;
+  width: 100%;
 }
 
 .background-header .nav {
