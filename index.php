@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="TemplateMo">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>Youth Of the Ummah</title>
+  <title>Youth Of the Ummah</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/custom.css?<?php echo date("YmdHis");?>">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-  </head>
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/custom.css?<?php echo date("YmdHis"); ?>">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
+</head>
 
 <body>
 
@@ -49,57 +49,69 @@
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <nav class="main-nav">
-                      <!-- ***** Logo Start ***** -->
-                      <a href="#" class="logo" id="page-title">
-                          <img src="assets/images/you-logo.jpg" alt="YOU logo">
-                      </a>
-                      <!-- ***** Logo End ***** -->
-                      <!-- ***** Menu Start ***** -->
-                      <ul class="nav">
-                          <a href="#top" class="active"><li class="scroll-to-section">Home</li></a>
-                          <a href="#about-us" class="active"><li class="scroll-to-section">About us</li></a>
-                          <a href="#events" class="active"><li class="scroll-to-section">Events</li></a>
-                          <a href="#courses" class="active"><li class="scroll-to-section">Gallery</li></a>
-                          <a href="#donate" class="active"><li class="scroll-to-section">Donate</li></a>
-                          <a href="#contact" class="active"><li class="scroll-to-section">Contact Us</li></a>
-                      </ul>        
-                      <a class='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
-                      <!-- ***** Menu End ***** -->
-                  </nav>
-              </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="#" class="logo" id="page-title">
+              <img src="assets/images/you-logo.jpg" alt="YOU logo">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <a href="#top" class="active">
+                <li class="scroll-to-section">Home</li>
+              </a>
+              <a href="#about-us" class="active">
+                <li class="scroll-to-section">About us</li>
+              </a>
+              <a href="#events" class="active">
+                <li class="scroll-to-section">Events</li>
+              </a>
+              <a href="#courses" class="active">
+                <li class="scroll-to-section">Gallery</li>
+              </a>
+              <a href="#donate" class="active">
+                <li class="scroll-to-section">Donate</li>
+              </a>
+              <a href="#contact" class="active">
+                <li class="scroll-to-section">Contact Us</li>
+              </a>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
       </div>
+    </div>
   </header>
   <!-- ***** Header Area End ***** -->
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
-      <video autoplay muted loop id="bg-video">
-          <source src="assets/images/eventOneClip.mp4" type="video/mp4" />
-      </video>
+    <video autoplay muted loop id="bg-video">
+      <source src="assets/images/eventOneClip.mp4" type="video/mp4" />
+    </video>
 
-      <div class="video-overlay header-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="caption">
+    <div class="video-overlay header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="caption">
               <h6>Assalaamu 'alaykum,</h6>
               <h2>Welcome to YOU</h2>
               <p>Youth Of the Ummah (YOU) is a youth initiative driven to inspire the youth to become productive and ambitious Muslims together in brotherhood under the obedience of Allah and his messenger Muhammed (peace be upon him).</p>
               <!-- <div class="main-button-red">
                   <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
               </div> -->
-          </div>
-              </div>
             </div>
           </div>
+        </div>
       </div>
+    </div>
   </section>
   <!-- ***** Main Banner Area End ***** -->
 
@@ -108,7 +120,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="owl-service-item owl-carousel">
-          
+
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-01.png" alt="">
@@ -118,7 +130,7 @@
                 <p>Great people have big and high ambitions. We work and aim towards making the youth highly ambitious to do great things; not only to better their own lives but all those around them too.</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-02.png" alt="">
@@ -128,7 +140,7 @@
                 <p>Time is a massive blessing of Allah. Once it's gone it's gone. We try to instill a high level of importance towards value of time and using it in the most productive way.</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-03.png" alt="">
@@ -138,7 +150,7 @@
                 <p>We all need support and a good network of likeminded friends to help us through life and achieve great things.Through our programs and events, this is what we try to build.</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-02.png" alt="">
@@ -148,7 +160,7 @@
                 <p>"Whoever seeks Allah's pleasure by the people's wrath, Allah will suffice him from the people..." - Jami` at-Tirmidhi 2414.</p>
               </div>
             </div>
-            
+
             <div class="item">
               <div class="icon">
                 <img src="assets/images/service-icon-03.png" alt="">
@@ -158,7 +170,7 @@
                 <p>The purest of man. The best of men. The chosen one. There is no way better than his way. There is no role model as perfect as he is. Peace be upon him.</p>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -178,7 +190,7 @@
         </div>
         <p>On the back of instilling enthusiasm and passion for personal development and the faith in general, from July 2022, we plan to start holding weekly circles to cover in detail some of the topics we touch upon in the events such as fundamentals of faith and personal development. Alongside that, a lot of interest and requests have come through to organise football sessions for which we plan to hire out pitches for weekly or fortnightly sessions. Residentials are also being planned for the summer and possibly the winter of 2022.</p>
         <p>All of the above are efforts to grow and improve the youth as a community and strengthen the bonds therein. But we understand that for complete progression we need to give attention to the youth on an individual basis. This would be to see how YOU can help them hurdle over any issues they may be facing and may find hard to address or simply provide them guidance on something they are inexperienced in. For this we are working towards putting together a mentoring system for our youth.</p>
-      </div>     
+      </div>
     </div>
   </section>
 
@@ -362,14 +374,14 @@
                 <h4>Salah</h4>
               </div>
             </div>
-          
+
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<!-- from here -->
+  <!-- from here -->
 
   <section class="donation-section" id="donate">
     <div class="container">
@@ -377,70 +389,37 @@
         <div class="col-lg-6 align-self-center">
           <div class="row">
             <div class="col-lg-12 paypal-container">
-
-            <div class="info-box">
-              <h4>Regular Events</h4>
-              <p>Generally, our events take place for 14 and above on the last Saturday of every month and last Sunday of every month for the 14 and under. Follow us on our social media platforms to stay updated</p>
-              <!-- <div class="main-button-red">
-                <a href="meetings.html">All Upcoming Meetings</a>
-              </div> -->
-            </div>
-            <!-- <div id="donate-button-container">
-              <div id="donate-button"></div>
-              <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-              <script>
-              PayPal.Donation.Button({
-              env:'production',
-              hosted_button_id:'2WNCC4RNQRERU',
-              image: {
-              src:'https://pics.paypal.com/00/s/OTBmYWU0YTktMzlmMy00YjQ3LTgwMDctZGViZTRjMmVmNzQx/file.PNG',
-              alt:'Donate with PayPal button',
-              title:'PayPal - The safer, easier way to pay online!',
-              }
-              }).render('#donate-button');
-              </script>
-            </div> -->
-
-
- 
+              <div class="info-box">
+                <h4>Bank Transfer</h4>
+                <div>
+                  <div>Please use the details below to make a direct bank transfer or set up a direct debit:</div>
+                  <br>
+                  <div><strong>Bank</strong>: Metro<br><strong>Name</strong>: Youth Of the Ummah<br><strong>Sort code</strong>: 08-71-99<br><strong>Account Number</strong>: 05476815<br><strong>Reference</strong>: Donation</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="accordions is-first-expanded">
             <h3 class="our-aims-title">Our Aims</h3>
-
-            <!-- <article class="accordion">
-              <div class="accordion-head">
-                  <span>What we are doing</span>
-                  <span class="icon">
-                      <i class="icon fa fa-chevron-right"></i>
-                  </span>
-              </div>
-              <div class="accordion-body">
-                <div class="content">
-                    <p>Through these events, we try to create a really fun atmosphere in a safe environment. They are full of team activities orchestrated to build strong bonds of brotherhood and inspire good conduct therein. We inject short bursts of crash learning between the activities so the youth not only have fun, but learn essentials things about their faith. Overall, through these events, we want give our youth a taste of the sweetness of our faith and empower them with an enthusiasm that makes them and our community great.</p>
-                    <p>Stay updated with our community to hear and read about our bigger and wider vision. Will be posted soon...</p>
-                </div>
-              </div>
-            </article> -->
             <article class="accordion">
               <div class="accordion-head">
-                  <span>Why do we need your help?</span>
-                  <span class="icon">
-                      <i class="icon fa fa-chevron-right"></i>
-                  </span>
+                <span>Why do we need your help?</span>
+                <span class="icon">
+                  <i class="icon fa fa-chevron-right"></i>
+                </span>
               </div>
               <div class="accordion-body">
                 <div class="content">
-                    <p>YOU is run by volunteers and currently has no method of funding. To fulfil our plans above, we require your support</p>
-                    <ul>
-                      <li>We are fortunate to have been provided a space to carry out our monthly events in local masajid, however we may need to hire out halls for some of the activities the youth want to engage in. </li>
-                      <li>We are currently working to support two masajid in Bow, Tower Hamlets. Monthly events in each masjid costs up to £150. Donations will go to supporting in these running costs. </li>
-                      <li>Members from other masajid have requested to run and organise events in their masajid too. Sadly, we are unable to support them at the moment, due to lack of funds and resources.</li>
-                      <li>To cover costs for hiring football pitches for weekly or fortnightly football</li>
-                      <li>Residential trips – for the summer. Ideally, we want enough funds to be able to take the youth with costs all paid for.</li>
-                    </ul>
+                  <p>YOU is run by volunteers and currently has no method of funding. To fulfil our plans above, we require your support</p>
+                  <ul>
+                    <li>We are fortunate to have been provided a space to carry out our monthly events in local masajid, however we may need to hire out halls for some of the activities the youth want to engage in. </li>
+                    <li>We are currently working to support two masajid in Bow, Tower Hamlets. Monthly events in each masjid costs up to £150. Donations will go to supporting in these running costs. </li>
+                    <li>Members from other masajid have requested to run and organise events in their masajid too. Sadly, we are unable to support them at the moment, due to lack of funds and resources.</li>
+                    <li>To cover costs for hiring football pitches for weekly or fortnightly football</li>
+                    <li>Residential trips – for the summer. Ideally, we want enough funds to be able to take the youth with costs all paid for.</li>
+                  </ul>
                 </div>
               </div>
             </article>
@@ -468,8 +447,8 @@
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
-                    <input name="email" type="text" id="enquirerEmail" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL*" required="">
-                  </fieldset>
+                      <input name="email" type="text" id="enquirerEmail" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL*" required="">
+                    </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
@@ -520,73 +499,75 @@
 
   <!-- contact modals -->
   <div id="contactModal" class="modal">
-        <div class="modalContent">
-            <!-- <span class="modalClose">&times</span> -->
-            <h3 class="modalMessageTitle" id="contactModalMessageTitle">Thank you for getting in touch! 😀</h3>
-            <p class="modalMessage" id="contactModalMessage">I appreciate you getting in contact and reaching out. I will get in touch with you soon! Have a great day!</p>
-            <button class="modalCloseBtn" id="contactModalCloseBtn">Close</button>
-        </div>
+    <div class="modalContent">
+      <!-- <span class="modalClose">&times</span> -->
+      <h3 class="modalMessageTitle" id="contactModalMessageTitle">Thank you for getting in touch! 😀</h3>
+      <p class="modalMessage" id="contactModalMessage">I appreciate you getting in contact and reaching out. I will get in touch with you soon! Have a great day!</p>
+      <button class="modalCloseBtn" id="contactModalCloseBtn">Close</button>
     </div>
+  </div>
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js?<?php echo date("YmdHis");?>"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/video.js"></script>
+  <script src="assets/js/slick-slider.js"></script>
+  <script src="assets/js/custom.js?<?php echo date("YmdHis"); ?>"></script>
+  <script>
+    //according to loftblog tut
+    $('.nav li:first').addClass('active');
 
-        var showSection = function showSection(section, isAnimate) {
+    var showSection = function showSection(section, isAnimate) {
+      var
+        direction = section.replace(/#/, ''),
+        reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+        reqSectionPos = reqSection.offset().top - 0;
+
+      if (isAnimate) {
+        $('body, html').animate({
+            scrollTop: reqSectionPos
+          },
+          800);
+      } else {
+        $('body, html').scrollTop(reqSectionPos);
+      }
+
+    };
+
+    var checkSection = function checkSection() {
+      $('.section').each(function() {
+        var
+          $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
           var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
+            currentId = $this.data('section'),
+            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+          reqLink.closest('li').addClass('active').
+          siblings().removeClass('active');
+        }
+      });
+    };
 
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
+    $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function(e) {
+      e.preventDefault();
+      showSection($(this).attr('href'), true);
+    });
 
-        };
-
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
-
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-          e.preventDefault();
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
+    $(window).scroll(function() {
+      checkSection();
+    });
+  </script>
 </body>
 
 </body>
+
 </html>
