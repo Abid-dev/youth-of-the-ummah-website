@@ -64,7 +64,7 @@
                           <a href="#about-us" class="active"><li class="scroll-to-section">About us</li></a>
                           <a href="#events" class="active"><li class="scroll-to-section">Events</li></a>
                           <a href="#courses" class="active"><li class="scroll-to-section">Gallery</li></a>
-                          <a href="#apply" class="active"><li class="scroll-to-section">Donate</li></a>
+                          <a href="#donate" class="active"><li class="scroll-to-section">Donate</li></a>
                           <a href="#contact" class="active"><li class="scroll-to-section">Contact Us</li></a>
                       </ul>        
                       <a class='menu-trigger'>
@@ -192,7 +192,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="categories">
+            <div class="info-box">
               <h4>Regular Events</h4>
               <p>Generally, our events take place for 14 and above on the last Saturday of every month and last Sunday of every month for the 14 and under. Follow us on our social media platforms to stay updated</p>
               <!-- <div class="main-button-red">
@@ -371,14 +371,21 @@
 
 <!-- from here -->
 
-  <section class="apply-now" id="apply">
+  <section class="donation-section" id="donate">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="row">
             <div class="col-lg-12 paypal-container">
 
-            <div id="donate-button-container">
+            <div class="info-box">
+              <h4>Regular Events</h4>
+              <p>Generally, our events take place for 14 and above on the last Saturday of every month and last Sunday of every month for the 14 and under. Follow us on our social media platforms to stay updated</p>
+              <!-- <div class="main-button-red">
+                <a href="meetings.html">All Upcoming Meetings</a>
+              </div> -->
+            </div>
+            <!-- <div id="donate-button-container">
               <div id="donate-button"></div>
               <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
               <script>
@@ -392,7 +399,7 @@
               }
               }).render('#donate-button');
               </script>
-            </div>
+            </div> -->
 
 
  

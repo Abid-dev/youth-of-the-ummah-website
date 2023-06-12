@@ -989,14 +989,14 @@ section.upcoming-meetings .section-heading {
   text-align: center;
 }
 
-section.upcoming-meetings .categories {
+.info-box {
   background-color: #fff;
   border-radius: 20px;
   padding: 40px;
   margin-right: 45px;
 }
 
-section.upcoming-meetings .categories h4 {
+.info-box h4 {
   font-size: 18px;
   font-weight: 600;
   color: #1f272b;
@@ -1005,29 +1005,29 @@ section.upcoming-meetings .categories h4 {
   border-bottom: 1px solid #eee;
 }
 
-section.upcoming-meetings .categories ul li {
+.info-box ul li {
   display: inline-block;
   margin-bottom: 15px;
 }
 
-section.upcoming-meetings .categories ul li a {
+.info-box ul li a {
   font-size: 15px;
   color: #1f272b;
   font-weight: 500;
   transition: all 0.3s;
 }
 
-section.upcoming-meetings .categories ul li a:hover {
+.info-box ul li a:hover {
   color: #a12c2f;
 }
 
-section.upcoming-meetings .categories .main-button-red {
+.info-box .main-button-red {
   border-top: 1px solid #eee;
   padding-top: 30px;
   margin-top: 15px;
 }
 
-section.upcoming-meetings .categories .main-button-red a {
+.info-box .main-button-red a {
   width: 100%;
   text-align: center;
 }
@@ -1108,7 +1108,7 @@ apply now
 ---------------------------------------------
 */
 
-section.apply-now {
+section.donation-section {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.6) 0%,
@@ -2028,7 +2028,7 @@ responsive
     padding-top: 400px;
   }
 
-  section.upcoming-meetings .categories {
+  .info-box {
     margin-right: 0px;
     margin-bottom: 30px;
   }
