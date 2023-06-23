@@ -386,7 +386,7 @@
   <section class="donation-section" id="donate">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 align-self-center">
+        <div class="col-md-6 align-self-center">
           <div class="row">
             <div class="col-lg-12 paypal-container">
               <div class="info-box">
@@ -400,15 +400,12 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <div class="accordions is-first-expanded">
             <h3 class="our-aims-title">Our Aims</h3>
             <article class="accordion">
               <div class="accordion-head">
                 <span>Why do we need your help?</span>
-                <span class="icon">
-                  <i class="icon fa fa-chevron-right"></i>
-                </span>
               </div>
               <div class="accordion-body">
                 <div class="content">
