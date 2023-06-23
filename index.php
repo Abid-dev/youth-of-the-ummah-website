@@ -386,9 +386,9 @@
   <section class="donation-section" id="donate">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="row">
-            <div class="col-lg-12 paypal-container">
+        <div>
+          <div>
+            <div>
               <div class="info-box">
                 <h4>Bank Transfer</h4>
                 <div>

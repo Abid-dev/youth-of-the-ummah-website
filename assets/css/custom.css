@@ -760,12 +760,6 @@ header
   }
 }
 
-/* @media (min-width: 767px) {
-  .header-area .main-nav .nav {
-    display: flex !important;
-  }
-} */
-
 /* 
 ---------------------------------------------
 banner
@@ -1139,12 +1133,6 @@ section.apply-now .item h3 {
 section.apply-now .item p {
   color: #fff;
   margin-bottom: 20px;
-}
-
-.paypal-container {
-  max-width: 400px;
-  max-height: 300px;
-  margin: auto;
 }
 
 #donate-button {
