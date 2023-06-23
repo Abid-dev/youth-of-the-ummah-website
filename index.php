@@ -394,7 +394,7 @@
                 <div>
                   <div>Please use the details below to make a direct bank transfer or set up a direct debit:</div>
                   <br>
-                  <div><strong>Bank</strong>: Metro<br><strong>Name</strong>: Youth Of the Ummah<br><strong>Sort code</strong>: 08-71-99<br><strong>Account Number</strong>: 05476815<br><strong>Reference</strong>: Donation</div>
+                  <div><strong>Bank</strong>: Metro<br><strong>Name</strong>: Youth Of the Ummah<br><strong>Sort code</strong>: 23-05-80<br><strong>Account Number</strong>: 48409849<br><strong>Reference</strong>: Donation</div>
                 </div>
               </div>
             </div>
