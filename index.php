@@ -488,7 +488,7 @@
     <div class="footer">
       <!-- <div><a href="./policies/privacy-policy.php" target="_blank">Privacy policy</a></div> -->
       <div><a href="https://www.termsfeed.com/live/98784e73-da59-4823-875f-258f47762c26" target="_blank">Privacy policy</a></div>
-      <div>Copyright © 2022 Youth Of The Ummah. All Rights Reserved.</div>
+      <div>Copyright © <?php echo date('Y') ?> Youth Of The Ummah. All Rights Reserved.</div>
     </div>
   </section>
 
