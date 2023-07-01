@@ -381,12 +381,10 @@
     </div>
   </section>
 
-  <!-- from here -->
-
   <section class="donation-section" id="donate">
     <div class="container">
       <div class="row">
-        <div>
+        <div class="col-md-6">
           <div>
             <div>
               <div class="info-box">
